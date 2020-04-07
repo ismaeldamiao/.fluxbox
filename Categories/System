@@ -1,0 +1,43 @@
+[exec] (XFCE Settings) {xfce4-settings-manager} <>
+[exec] (Aparence) {xfce4-appearance-settings} <>
+[exec] (Software Manager) {mintinstall} <>
+[exec] (Software Sources) {pkexec mintsources} <>
+[exec] (Synaptic Package Manager) {synaptic-pkexec} <>
+[exec] (Network Connections) {nm-connection-editor} <>
+[exec] (GParted) {gparted} <>
+[exec] (Grub Custimizer) {grub-customizer} <>
+
+
+[submenu] (Fluxbox) <~/.fluxbox/icons/preferences-desktop-accessibility.png>
+
+    [config] (Fluxbox Menu)
+    [reconfig] (Reconfigure)
+    [restart] (Restart)
+    [workspaces] (Workspaces)
+
+    [submenu] (Wallpaper)
+        #[wallpapers] (~/.fluxbox/backgrounds) {exec fbsetbg}
+        [wallpapers] (~/.fluxbox/backgrounds) {'feh' '--bg-max' }
+    [end]
+
+    [submenu] (Commands) {}
+        [exec] (Update Mint Menu) {bash ~/.fluxbox/Script/autogeneratemenu.sh}
+    [end]
+
+    [submenu] (Styles) {}
+        [submenu] (Mint-Y) {}
+          [stylesdir] (~/.fluxbox/styles/Mint-Y)
+        [end]
+
+        [submenu] (Mint-Y-Dark) {}
+          [stylesdir] (~/.fluxbox/styles/Mint-Y-Dark)
+        [end]
+
+        [submenu] (Fluxbox default) {}
+          [stylesdir] (/usr/share/fluxbox/styles)
+        [end]
+
+        [stylesdir] (~/.fluxbox/styles)
+    [end]
+
+[end]

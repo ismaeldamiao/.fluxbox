@@ -1,0 +1,55 @@
+[submenu] (Applicatons) {} </usr/share/icons/gnome/48x48/mimetypes/application-x-addon.png>
+
+    [submenu]  (Accessories)  <~/.fluxbox/icons/categories/Accessories.png>
+        [include] (~/.fluxbox/Categories/Accessories)
+    [end]
+
+    [submenu]  (Graphics)  <~/.fluxbox/icons/categories/Graphics.png>
+        [include] (~/.fluxbox/Categories/Graphics)
+    [end]
+
+    [submenu]  (Science)  <~/.fluxbox/icons/categories/Science.png>
+        [include] (~/.fluxbox/Categories/Science)
+    [end]
+
+    [submenu]  (Mathematics)  <~/.fluxbox/icons/categories/Mathematics.png>
+        [include] (~/.fluxbox/Categories/Mathematics)
+    [end]
+
+    [submenu]  (Education)  <~/.fluxbox/icons/categories/Education.png>
+        [include] (~/.fluxbox/Categories/Education)
+    [end]
+
+    [submenu]  (Internet)  <~/.fluxbox/icons/categories/Internet.png>
+        [include] (~/.fluxbox/Categories/Internet)
+    [end]
+
+    [submenu]  (Office)  <~/.fluxbox/icons/categories/Office.png>
+        [include] (~/.fluxbox/Categories/Office)
+    [end]
+
+    [submenu]  (Multimedia)  <~/.fluxbox/icons/categories/Multimedia.png>
+        [include] (~/.fluxbox/Categories/Multimedia)
+    [end]
+
+    [submenu]  (Development)  <~/.fluxbox/icons/categories/Java.png>
+        [include] (~/.fluxbox/Categories/Development)
+    [end]
+
+    [submenu]  (Game)  <~/.fluxbox/icons/categories/Game.png>
+        [include] (~/.fluxbox/Categories/Game)
+    [end]
+
+    [submenu]  (Places)  <~/.fluxbox/icons/categories/xfce-filemanager.png>
+        [include] (~/.fluxbox/Categories/Places)
+    [end]
+
+    [submenu] (Auto generate menu) {} <~/.fluxbox/icons/categories/Other.png>
+        [include] (~/.fluxbox/Categories/auto)
+    [end]
+
+    [submenu] (System Tools) <~/.fluxbox/icons/categories/Utilities.png>
+        [include] (~/.fluxbox/Categories/System)
+    [end]
+
+[end]

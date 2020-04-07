@@ -1,0 +1,20 @@
+[begin] (Imperial Linux)
+
+    [exec] (Home) {nemo} <~/.fluxbox/icons/gtk-home.png>
+    [exec] (Browser) {firefox} <~/.fluxbox/icons/web-browser.png>
+    [exec] (gnome terminal) {gnome-terminal} <~/.fluxbox/icons/gnome-terminal.png>
+    [exec] (xterm) {xterm} <~/.fluxbox/icons/xterm-color.png>
+
+    [separator]
+
+    [include] (~/.fluxbox/Categories/Categories) <~/.fluxbox/icons/applications-other.png>
+
+   [submenu] (Power) {} <~/.fluxbox/icons/application-exit.png>
+     [exit] (Exit) <~/.fluxbox/icons/system-log-out.png>
+     [exec] (Hibernate){systemctl hibernate} <~/.fluxbox/icons/appointment.png>
+     [exec] (Suspend){systemctl suspend} <~/.fluxbox/icons/system-lock-screen.png>
+     [exec] (Reboot){reboot} <~/.fluxbox/icons/gtk-refresh.png>
+     [exec] (Shutdown){poweroff} <~/.fluxbox/icons/system-shutdown.png>
+   [end]
+
+[end]

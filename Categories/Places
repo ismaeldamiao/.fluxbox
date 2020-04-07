@@ -1,0 +1,7 @@
+[exec] (HOME) {nemo $HOME} </usr/share/icons/Mint-Y-Blue/places/48/folder_home.png>
+[exec] (Desktop) {nemo $HOME/Desktop} </usr/share/icons/Mint-Y-Blue/places/48/desktop.png>
+[exec] (Downloads) {nemo $HOME/Downloads} </usr/share/icons/Mint-Y-Blue/places/48/folder-download.png>
+[exec] (Documents) {nemo $HOME/Documents} </usr/share/icons/Mint-Y-Blue/places/48/folder-documents.png>
+[exec] (Musics) {nemo $HOME/Music} </usr/share/icons/Mint-Y-Blue/places/48/folder-music.png>
+[exec] (Videos) {nemo $HOME/Videos} </usr/share/icons/Mint-Y-Blue/places/48/folder-videos.png>
+[exec] (Pictures) {nemo $HOME/Pictures} </usr/share/icons/Mint-Y-Blue/places/48/folder-pictures.png>

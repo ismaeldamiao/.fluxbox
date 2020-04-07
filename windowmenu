@@ -1,0 +1,18 @@
+[begin]
+  [shade]
+  [stick]
+  [maximize](Maximize (Alt + F10\))
+  [fullscreen](Fullscreen (Alt+F11\))
+  [minimize](Minimize (Alt+F9\))
+  [iconify]
+  [raise]
+  [lower]
+  [settitledialog]
+  [sendto]
+  [layer]
+  [alpha]
+  [extramenus]
+  [separator]
+  [kill](Kill (Alt+F5\))
+  [close](Close (Alt+F4\))
+[end]

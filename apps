@@ -1,0 +1,8 @@
+[app] (name=gnome-terminal-server) (class=Gnome-terminal)
+  [Dimensions]	{63% 60%}
+  [Position]	(UPPERLEFT)	{0% 36%}
+[end]
+[app] (name=sublime_text) (class=Sublime_text)
+  [Dimensions]	{61% 64%}
+  [Position]	(UPPERLEFT)	{39% 36%}
+[end]
